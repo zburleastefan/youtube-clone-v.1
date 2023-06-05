@@ -1,0 +1,64 @@
+@tailwind base;
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+  
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+    visibility: hidden;
+}
+
+*::-webkit-resizer {
+    visibility: hidden;
+}
+
+*::-webkit-scrollbar-track {
+    /* background: var(--primary); */
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+}
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+}
+
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        height: -webkit-fill-available;
+    }
+}
+
+:root {
+    --primary: #434654;
+    --secondary: #d34f37;
+}
+
+@layer components {
+    .Row {
+        @apply rounded-lg mx-1 mb-3 flex text-sm items-center justify-center 
+        space-x-2 hover:bg-[#11A37F] hover:bg-opacity-30 cursor-pointer text-gray-300 
+        transition-all duration-200 ease-out
+    }
+
+    .searchRow {
+        @apply rounded-lg mx-1 md:mb-3 flex text-base md:flex-row md:text-sm justify-between items-center
+        md:space-x-2 hover:bg-[red] hover:bg-opacity-30 cursor-pointer text-gray-300 md:w-[250px]
+        transition-all duration-700 ease-in-out hover:text-white md:hover:scale-105 md:overflow-y-hidden md:overflow-x-auto
+    }
+}

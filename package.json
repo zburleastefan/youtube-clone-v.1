@@ -1,0 +1,39 @@
+{
+  "name": "youtube-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build", 
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests",
+    "puppeteer": "node puppeteer/puppeteer.js"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "firebase": "^9.22.0",
+    "firebase-admin": "^11.8.0",
+    "mocha": "^10.2.0",
+    "next": "13.4.3",
+    "postcss": "8.4.23",
+    "puppeteer": "^20.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-player": "^2.12.0",
+    "react-tooltip": "^5.13.1",
+    "screenfull": "^6.0.2",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  }
+}
