@@ -1,7 +1,10 @@
 # Youtube Clone
 
-![youtubeClone2Img](https://github.com/zburleastefan/youtube-clone/assets/104846691/b7f0ae64-9dab-4489-a351-7d9d48734dc4)
+![youtubeClone0Img](https://github.com/zburleastefan/youtube-clone-v.1/assets/104846691/a474b475-eadb-4665-b75a-c16e34397a03)
 
+![Screenshot_463](https://github.com/zburleastefan/youtube-clone-v.1/assets/104846691/681649f4-13d4-45ee-ae4e-7f9c91a5fc53)
+
+![Screenshot_465](https://github.com/zburleastefan/youtube-clone-v.1/assets/104846691/9dd8f7f5-66ea-4e4d-ab87-55cc89ef8bea)
 
 ## Description
 
