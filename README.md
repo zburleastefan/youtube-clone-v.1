@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Youtube Clone
+
+![youtubeClone2Img](https://github.com/zburleastefan/youtube-clone/assets/104846691/b7f0ae64-9dab-4489-a351-7d9d48734dc4)
+
+
+## Description
+
+YouTube-Clone App is an amazing video-sharing platform that has been built using the latest technology stack of Next.js, Firebase, TypeScript, Tailwind being deployed on Vercel. It is a great application that seamlessly replicates the familiar user-interface of YouTube, while adding its distinctive features.
+
+With Next.js providing the server-side rendering capabilities, Firebase providing the real-time database, and Vercel providing the hosting and continuous deployment solution, the YouTube-Clone App has been optimized for speed, stability, and scalability.
+
+The unique user interface of the YouTube-Clone App, combined with the seamless integration of TypeScript, Tailwind CSS, and Firebase, provides an unforgettable user experience that is easy to navigate, intuitive, and visually stunning.
+
+One of the key benefits of this app is its simple installation process and easy-to-use interface, making it accessible to users of all levels of technical expertise. Users can easily search for and discover the trending videos, create their own channels, and subscribe to their favorite content creators.
+
+Overall, the YouTube-Clone App is an exceptional platform that brings together the best of modern technology to provide a high-quality video-sharing experience for users. It is the perfect solution for those who are passionate about video content and want to share their creativity with the world.
+
+
 
 ## Getting Started
 
